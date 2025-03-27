@@ -1,0 +1,12 @@
+.app {
+    width: 100%;
+    max-width: 1100px;
+    height: 100vh;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    line-height: 0.8;
+    margin: 0 auto;
+    padding: 0;
+    color: #000000;
+}
