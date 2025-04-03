@@ -4,3 +4,4 @@ export const contacts = [
     'info@sobaka.ge',
     'наб. Принсенграхт 263- 265, Амстердам',
 ]
+
