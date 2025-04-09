@@ -1,0 +1,67 @@
+.lots-element {
+    max-width: 334px;
+    min-height: 563px;
+    position: relative;
+}
+
+.lots-element__container {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.lots-element__container_film {
+    background-image: url('../../images/film.svg');
+}
+
+.lots-element__container_book {
+    background-image: url('../../images/book.svg');
+}
+
+.lots-element__container_picture {
+    background-image: url('../../images/picture.svg');
+}
+
+.lots-element__info-title {
+    margin: 0;
+}
+
+.lots-element__overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    opacity: 60%;
+}
+
+.lots-element__info {
+    width: 76%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 51px 0 48px 0;
+    min-height: 464px;
+}
+
+.lots-element__info-title {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: underline;
+    z-index: 1;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.2;
+}
+
+.lots-element__info-text {
+    color: #fff;
+    z-index: 1;
+    font-size: 20px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    margin: 0;
+}

@@ -13,9 +13,13 @@ function Lots() {
                             key={item.title}
                             title={item.title}
                             text={item.text}
+                            img={item.img}
                         />
                     ))}
                 </ul>
+                <a className="lots__link" href="/" alt="Посмотреть больше">
+                    посмотреть больше
+                </a>
             </div>
         </section>
     )
